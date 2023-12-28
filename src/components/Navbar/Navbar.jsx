@@ -100,7 +100,7 @@ function Navbar() {
                   previewlistener="true"
                 >
                   <li className="border-b border-gray-300 px-[0.938rem] py-[1.25rem] font-semibold text-black hover:text-primary">
-                   Asset performance 
+                   Asset performance Mangement
                   </li>
                 </Link>
                 {/* Add more dropdown items as needed */}
