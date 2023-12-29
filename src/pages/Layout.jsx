@@ -1,18 +1,24 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import { Outlet } from 'react-router-dom'
-import './styles.css';
+import Footer from '../components/Footer/Footer.jsx'
+
 
 function Layout() {
   return (
-    <div className="flex min-h-screen outer " >
-    <div className="flex flex-col flex-grow ">
-      <Navbar />
-      <div className="flex-grow mt-4">
+<div className="flex min-h-screen">  
+    <div className="flex flex-col flex-grow">
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="flex flex-col">
         <Outlet />
       </div>
+      <div>
+        <Footer/>
+      </div>
     </div>
-  </div>
+    </div>
   )
 }
 
