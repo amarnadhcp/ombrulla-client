@@ -71,7 +71,7 @@
   font-weight: 600;
   transition: all 300ms ease-in-out;
   font-family: sans-serif;
-  width: 16rem; 
+  width: 16rem; /* Adjust the width as needed */
 }
 
 .dropdown.visible {
@@ -80,7 +80,7 @@
 
 
 .list-item {
-  border-bottom: 1px solid #d1d5db;
+  border-bottom: 1px solid #d1d5db; /* Change color as needed */
   padding: 1.25rem 0.938rem;
   font-weight: 600;
   color: #000;
@@ -88,5 +88,5 @@
 }
 
 .list-item:hover {
-  color: #3b82f6; 
+  color: #3b82f6; /* Change color on hover as needed */
 }
